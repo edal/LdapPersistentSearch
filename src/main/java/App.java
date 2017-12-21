@@ -56,7 +56,7 @@ public class App {
     }
 
     protected LDAPConnection getConnection() throws LDAPException {
-        String address = "localhost";
+        String address = "172.18.0.2";
         int port = 389;
         String bindDN = "dc=example,dc=org";
         String password = "admin";
